@@ -36,6 +36,7 @@ export default function App() {
           <DashboardRoute path="/users">
             <Users />
           </DashboardRoute>
+          <Route path="/404" component={NotFound} />
           <Route component={NotFound} />
         </Switch>
       </div>
